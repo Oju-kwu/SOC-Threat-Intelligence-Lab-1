@@ -37,7 +37,20 @@ The primary objectives of this lab were:
 
 - Create a YARA Rule: Develop a YARA rule to detect the malware based on its hash, strings, file characteristics, and behavioral indicators.
 
-- Prepare a Comprehensive Report: Document the analysis, findings, and recommendations for executive leadership.
+### Tools Used
+- VirusTotal API: Used to analyze hash values and identify malicious samples.
+- Python: Used to automate the hash analysis process with the requests library.
+- YARA: Used to create a detection rule for the identified malware.
+- Text Editor: Used to write and edit the Python script and YARA rule.
+- Threat Intelligence Sources: Used to research the malware's history, tactics, and impact.
+
+### Methodology
+The lab was conducted in the following steps:
+
+- Install Required Packages
+- Installed the requests library in Python to interact with the VirusTotal API.
+- sudo apt update && sudo apt install python3-venv python3-requests -y
+  
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
@@ -48,12 +61,6 @@ The primary objectives of this lab were:
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
-### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
